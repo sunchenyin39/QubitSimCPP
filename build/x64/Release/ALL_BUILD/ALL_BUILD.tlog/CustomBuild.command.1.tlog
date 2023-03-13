@@ -1,0 +1,10 @@
+^D:\RESEARCH\PROGRAM\QUBITSIMCPP\CMAKELISTS.TXT
+setlocal
+D:\program\cmake\bin\cmake.exe -SD:/research/program/QubitSimCPP -BD:/research/program/QubitSimCPP/build --check-stamp-file D:/research/program/QubitSimCPP/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

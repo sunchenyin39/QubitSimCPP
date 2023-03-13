@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\research\program\QubitSimCPP\build\CMakeFiles\d9cba7cca99db4edda6c4288f3374521\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{455A6EB1-6560-3A3D-805A-2E1C3F4653BE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
